@@ -19,7 +19,7 @@
             <div class="hero-content">
                 <h1>${featuredTitle}</h1>
                 <div class="meta-info">
-                    <span class="meta-badge">Amazon Prime Originals-Kastro</span>
+                    <span class="meta-badge">Amazon Prime Originals-Dr. Kastro Kiran V</span>
                     <span>${featuredYear}</span>
                     <span>${featuredRating}</span>
                     <span>${featuredGenre}</span>
