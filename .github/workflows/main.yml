@@ -1,6 +1,6 @@
 name: Amazon Prime Clone CI-CD Pipeline
 
-on:
+on: 
   push:
     branches:
       - main
