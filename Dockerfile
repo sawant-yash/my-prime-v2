@@ -6,8 +6,8 @@ COPY src ./src
 RUN mvn clean package -DskipTests
 
 # Runtime stage
-FROM tomcat:10.1.20-jdk21-temurin-jammy
-LABEL maintainer="kastrov"
+FROM tomcat:9.0.117-jdk21-temurin-jammy
+LABEL maintainer="yash5030"
 LABEL version="2.0.0"
 LABEL description="Amazon Prime Video Clone Application"
 
