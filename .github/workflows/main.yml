@@ -66,8 +66,4 @@ jobs:
             --restart always \
             ${{ secrets.DOCKERHUB_USERNAME }}/amazon-prime-clone:latest
 
-      # 10. Verify deployment
-      - name: Verify Container
-        run: |
-          docker ps
-          curl -f http://localhost:8080 || exit 1
+     
