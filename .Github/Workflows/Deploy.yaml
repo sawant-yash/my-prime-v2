@@ -43,7 +43,7 @@ jobs:
       - name: Stop Existing Container
         run: |
           docker stop prime-app || true
-          docker rm prime-app || true
+          docker rm prime-app || true 
 
       # 7. Pull latest image from DockerHub
       - name: Pull Latest Image
